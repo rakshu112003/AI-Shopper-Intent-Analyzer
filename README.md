@@ -1,4 +1,4 @@
-# AI-Shopper-Intent-Analyzer
+
 # 🛍️ AI Shopper Intent Analyzer
 
 An AI-powered ecommerce personalization mini-tool that analyzes customer shopping behavior events and classifies shoppers into different intent states with confidence scores, evidence, and recommended actions.
