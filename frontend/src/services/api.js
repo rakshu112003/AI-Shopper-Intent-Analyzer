@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/analyze";
+const API_URL = "https://ai-shopper-intent-analyzer-3.onrender.com/api/analyze";
 
 export async function analyzeShopper(events) {
   const response = await fetch(API_URL, {
