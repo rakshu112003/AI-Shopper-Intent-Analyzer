@@ -46,8 +46,6 @@ The engine identifies users as:
 - REST API
 
 ## 🏗️ Project Architecture
-Rakshu friend 💛 ninna project ge professional README.md ready maadide. GitHub repo alli README.md file ge paste maadu.
-Markdown
 React Frontend | | ↓ Express Backend API | | ↓ Shopper Intent Classification Engine
 
 ## 📂 Project Structure
