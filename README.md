@@ -1,106 +1,111 @@
+🛍️ AI Shopper Intent Analyzer
 
-# 🛍️ AI Shopper Intent Analyzer
+An LLM-powered Ecommerce Personalization Rules Engine that analyzes customer shopping behavior and provides AI-driven recommendations using Google Gemini AI.
 
-An AI-powered ecommerce personalization mini-tool that analyzes customer shopping behavior events and classifies shoppers into different intent states with confidence scores, evidence, and recommended actions.
+🚀 Live Demo
 
-## 📌 Overview
+Frontend:
+https://ai-shopper-intent-analyzer-j5ds.vercel.app/
 
-AI Shopper Intent Analyzer helps ecommerce businesses understand customer behavior by analyzing user event streams such as product views, product comparisons, cart activity, and discount interactions.
+Backend API:
+https://ai-shopper-intent-analyzer-3.onrender.com/
 
-The system classifies shoppers into different segments and suggests personalized actions to improve customer engagement and conversion.
+📂 GitHub Repository
 
-## 🚀 Features
+https://github.com/rakshu112003/AI-Shopper-Intent-Analyzer
 
-- 🧠 Shopper intent classification
-- 📊 Confidence score generation
-- 🔍 Evidence-based explanations
-- 🎯 Personalized ecommerce recommendations
-- ⚡ Interactive event simulator
-- 🔄 Real-time analysis based on user events
+✨ Features
 
-## 👥 Shopper States
+- Analyze customer shopping event streams
+- Classify shopper intent (Browser, Comparer, Discount Seeker, Cart Abandoner, Loyal Customer)
+- Display confidence score
+- Show evidence behind the prediction
+- Recommend personalized actions to improve ecommerce conversions
+- AI-powered analysis using Google Gemini
 
-The engine identifies users as:
+🛠️ Tech Stack
 
-- 🟢 Browser
-- 🔵 Comparer
-- 🟡 Discount Seeker
-- 🔴 Cart Abandoner
-- ⭐ Loyal Customer
+Frontend
 
-## 🛠️ Tech Stack
-
-### Frontend
-- React.js
+- React
+- Vite
 - JavaScript
-- HTML
 - CSS
 
-### Backend
+Backend
+
 - Node.js
 - Express.js
 
-### Tools
-- Git & GitHub
-- Vercel
-- REST API
+AI
 
-## 🏗️ Project Architecture
-React Frontend | | ↓ Express Backend API | | ↓ Shopper Intent Classification Engine
+- Google Gemini API
 
-## 📂 Project Structure
-AI-Shopper-Intent-Analyzer
-├── frontend │   ├── src │   ├── components │   ├── pages │   └── services │ ├── backend │   ├── routes │   ├── services │   ├── server.js │   └── package.json │ └── README.md
+Deployment
 
-## 🧪 Example Input
-view_product compare_products add_to_cart
+- Vercel (Frontend)
+- Render (Backend)
 
-## ✅ Example Output
-Shopper State: Cart Abandoner
-Confidence: 90%
-Evidence:
-view_product
-compare_products
-add_to_cart
-Recommended Action: Send cart reminder with personalized discount
+📁 Project Structure
 
-## ⚙️ Installation & Setup
+AI-Shopper-Intent-Analyzer/
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
+│
+├── backend/
+│   ├── routes/
+│   ├── services/
+│   ├── server.js
+│   └── package.json
+│
+└── README.md
 
-### Clone Repository
+⚙️ Installation
 
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-Frontend Setup
-Bash
+Clone the repository
+
+git clone https://github.com/rakshu112003/AI-Shopper-Intent-Analyzer.git
+
+Frontend
+
 cd frontend
 npm install
 npm run dev
-Backend Setup
-Bash
+
+Backend
+
 cd backend
 npm install
 npm start
-Create .env file in backend:
 
-PORT=5000
-🎯 Use Case
-This tool can help ecommerce platforms:
-Understand customer purchase intent
-Improve personalization
-Reduce cart abandonment
-Provide targeted marketing actions
-🔮 Future Improvements
-Real LLM integration for advanced reasoning
-Customer journey visualization
-A/B testing recommendations
-Competitor behavior analysis
+🧪 Example Customer Events
+
+view_product
+compare_products
+add_to_cart
+
+Example Output
+
+- Shopper State: Cart Abandoner
+- Confidence: 90%
+- Evidence:
+  - view_product
+  - compare_products
+  - add_to_cart
+- Recommended Action:
+  - Send cart reminder with a personalized discount
+
 👩‍💻 Author
+
 Rakshitha HN
-Software Engineer Candidate
-- Product explanation ✅
-- Architecture ✅
-- Features ✅
-- Setup instructions ✅
-- Future improvements ✅
 
+- GitHub: https://github.com/rakshu112003
+- LinkedIn: https://www.linkedin.com/in/rakshitha-hn/
 
+---
+
+⭐ If you found this project useful, consider giving it a star on GitHub!
